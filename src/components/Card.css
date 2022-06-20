@@ -1,0 +1,15 @@
+.card {
+    height: 200px;
+    width: 150px;
+    background-color: rgb(231, 205, 205);
+    margin: 10px;
+    border: 1px;
+    border-radius: 10%;
+    margin-top: 5px;
+    border-color: black;
+}
+
+.CardContenido {
+    width: 70px;
+    margin-top: 5px;
+}

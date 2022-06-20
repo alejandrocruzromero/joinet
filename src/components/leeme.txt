@@ -1,0 +1,4 @@
+
+instalar fontawesome icons (si fallam hacerlo desde Bash)
+
+npm i --save @fortawesome/fontawesome-svg-core

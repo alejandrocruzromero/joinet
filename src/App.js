@@ -1,25 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
-
+import  Nabvar from './components/NavBar';
+import  Body from './components/Body';
+import  Welcome from './components/Welcome';
+import  Card from './components/Card';
 function App() {
+  if (true){
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <Nabvar />   
+      <Welcome name = 'Alejandro Papachito mi rey pechocho'/>                     
+      <Body />           
+      {/* <Body>
+        <Card product ='Ejemplo Children' price="$14" img=''/>        
+      </Body>   */}
     </div>
   );
+  }  else{
+    return (<p>falso</p>);
+  }
 }
 
 export default App;
