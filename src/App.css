@@ -1,3 +1,12 @@
+.cuerpo {
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .App {
     text-align: center;
 }
