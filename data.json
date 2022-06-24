@@ -1,0 +1,29 @@
+[{
+        "nombre": "Audifonos con microfono",
+        "stock": 10,
+        "precio": 107,
+        "id": 1,
+        "img": "https://joinet.com/wp-content/uploads/2020/08/DM.08-2-150x150.jpg"
+    },
+    {
+        "nombre": "Vaso para Malteada",
+        "stock": 7,
+        "precio": 39,
+        "id": 2,
+        "img": "https://joinet.com/wp-content/uploads/2021/09/VAS.POP_-150x150.jpg"
+    },
+    {
+        "nombre": "Base con ventilador para laptop",
+        "stock": 3,
+        "precio": 146,
+        "id": 3,
+        "img": "https://joinet.com/wp-content/uploads/2021/12/VTL-01-150x150.jpg"
+    },
+    {
+        "nombre": "Bateria pila Nokia",
+        "stock": 25,
+        "precio": 21,
+        "id": 4,
+        "img": "https://joinet.com/wp-content/uploads/2020/08/pila.5c-1-150x150.jpg"
+    }
+]
