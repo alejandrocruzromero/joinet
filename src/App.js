@@ -10,13 +10,13 @@ function App() {
     <div className="App">
 
       <Nabvar />   
-      <Welcome name = 'Alejandro Papachito mi rey pechocho'/>                     
+      <Welcome name = ''/>                     
       <Body />           
       {/* <Body>
         <Card product ='Ejemplo Children' price="$14" img=''/>        
       </Body>   */}
     </div>
-  );
+  ); 
   }  else{
     return (<p>falso</p>);
   }

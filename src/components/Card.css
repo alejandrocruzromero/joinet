@@ -1,15 +1,28 @@
 .card {
-    height: 200px;
-    width: 150px;
+    height: 350px;
+    width: 200px;
     background-color: rgb(231, 205, 205);
-    margin: 10px;
+    margin: 20px;
     border: 1px;
     border-radius: 10%;
     margin-top: 5px;
     border-color: black;
+    padding-left: 5px;
+    padding-top: 5px;
 }
 
 .CardContenido {
-    width: 70px;
+    width: 80px;
     margin-top: 5px;
+}
+
+.CardP {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.CardTitulo {
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 50px;
 }

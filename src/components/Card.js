@@ -1,4 +1,6 @@
 import './Card.css';
+import ItemCount from './ItemCount'
+import ItemList from './ItemList';
 // ESTE ES UN COMPONENTE STATELESS, solo son de presentacion
 // function Card({product,price,img}) {
 //   return (
@@ -13,11 +15,14 @@ import './Card.css';
 //ó
 
 function Card(props) {
+  
   return (
     <section   className="card">
       <img src={props.img}  className = "CardContenido" alt ="contenido"/>
-        <h4>{props.product}</h4>
-        <p>{props.price}</p>
+        <h4 className = "CardTitulo">{props.nombre}</h4>
+        <p className = "CardP">${props.precio}</p>
+        <ItemList />
+        <ItemCount cantidad = {props.stock}/>
         
     </section>
   );

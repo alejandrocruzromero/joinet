@@ -1,0 +1,46 @@
+
+
+CLASE05
+
+Estados
+    this.state  ={name:'ReactClass'};
+    this.setstate({name:'ReactFunction'});
+    Nos va  apermitirmantener datos de nuestro conexto para utilizarlo dentro de sus componentes
+
+hooks
+    state
+
+
+stackblitz.com
+
+
+Ciclos de vida(CLASES)
+    Montaje
+        getdefaultprops
+        getinitialstate
+        render
+        componentdidmount (Ajax)
+    Actualizacion
+        shouldcomponentupdate (debe devolver un valor booleano)
+        render
+        componentdidupdate 
+    Desmontaje
+         componentWillunmount
+
+
+Ciclos de vida (Funciones)
+    hook : useEffect
+
+    import Reac,{Component,useState,UseEffect} from 'react'
+
+    sirve pára:
+        controlar ciclo de vida 
+        mutaciones
+
+    Comporatmientro simetrico
+
+        Accion=>Limpieza=>Accion=>Limpieza
+        y nunca
+        Accion=>Accion=>Accion=>Limpieza
+
+        
